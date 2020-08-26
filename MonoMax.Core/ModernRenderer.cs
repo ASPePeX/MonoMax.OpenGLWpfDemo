@@ -1,10 +1,11 @@
-﻿using MonoMax.Core;
-using OpenTK;
+﻿using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using System;
 using System.Drawing;
 using System.IO;
 using System.Reflection;
+using ClearBufferMask = OpenTK.Graphics.OpenGL.ClearBufferMask;
+using EnableCap = OpenTK.Graphics.OpenGL.EnableCap;
 using gl = OpenTK.Graphics.OpenGL.GL;
 using mat4 = OpenTK.Matrix4;
 
